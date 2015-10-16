@@ -1,0 +1,37 @@
+.yellow
+%footer.contact-section(id='контакты')
+  .contact-info
+    .sexy-flex
+      #logo
+        #square
+          #triangle
+          #flag
+      .contacts{:itemprop => "address", :itemscope => "", :itemtype => "http://schema.org/PostalAddress"}
+        %ul
+
+          %li
+            = link_to  '+7 499 347-76-89', 'tel:+74993477689', itemprop: "telephone"
+          %li.phone
+            = link_to  '+7 964 647-76-89', 'tel:+79646477689'
+          %li
+            = link_to  '+7 916 716-23-45', 'tel:+79167162345'
+        %ul
+          %li.email
+            = link_to 'ram-ch@mail.ru', 'mailto:ram-ch@mail.ru', itemprop: "email"
+
+        %ul
+
+          %li.city
+            107078,
+            %span{:itemprop => "addressLocality"} Москва
+          %li.address{:itemprop => "streetAddress"} Мясницкий проезд, 3/26, 1
+
+
+  .footer-content
+    .name{:itemprop => "name"} ООО "РАМ-Ч"
+    .date
+      | 2015 ©
+
+    //.vilinicz
+    //  made by
+    //  = link_to 'Vilinicz', 'https://github.com/Ilinicz', target: '_blank'

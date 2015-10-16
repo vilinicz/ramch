@@ -13,3 +13,12 @@
 @import "lists";
 @import "tables";
 @import "typography";
+
+
+@mixin vertical-align($percent){
+    position: relative;
+    top: $percent;
+    -webkit-transform: translateY(- $percent);
+    -ms-transform: translateY(- $percent);
+    transform: translateY(- $percent);
+}

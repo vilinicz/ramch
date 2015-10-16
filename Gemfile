@@ -7,3 +7,5 @@ gem "middleman-livereload"
 gem "middleman-deploy"
 gem "bourbon"
 gem "neat"
+
+gem 'font-awesome-middleman'

@@ -1,6 +1,8 @@
+@import 'bitter-font';
+@import 'raleway-font';
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+$base-font-family: 'Raleway';
+$heading-font-family: 'Bitter';
 
 // Font Sizes
 $base-font-size: 1em;
@@ -17,9 +19,11 @@ $base-z-index: 0;
 
 // Colors
 $blue: #477dca;
-$dark-gray: #333;
+$black: #242526;
+$dark-gray: #4f4d51;
 $medium-gray: #999;
-$light-gray: #ddd;
+$light-gray: #e9e9e9;
+$yellow:  #FD2; //#FFEA03; #fff200;
 
 // Font Colors
 $base-background-color: #fff;
