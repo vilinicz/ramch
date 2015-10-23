@@ -1,0 +1,3643 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 10, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 174, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 380, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 391, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 400, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 409, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 420, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, /home/vilinicz/projects/ramch/source/assets/stylesheets/vendor/normalize.css */
+td,
+th {
+  padding: 0; }
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("../fonts/bitter-regular.eot");
+  src: url("../fonts/bitter-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-regular.woff") format("woff"), url("../fonts/bitter-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Bitter';
+  src: url("../fonts/bitter-bold.eot");
+  src: url("../fonts/bitter-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-bold.woff") format("woff"), url("../fonts/bitter-bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Bitter';
+  src: url("../fonts/bitter-italic.eot");
+  src: url("../fonts/bitter-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-italic.woff") format("woff"), url("../fonts/bitter-italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Bitter';
+  src: url("../fonts/bitter-bolditalic.eot");
+  src: url("../fonts/bitter-bolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-bolditalic.woff") format("woff"), url("../fonts/bitter-bolditalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-black.eot");
+  src: url("../fonts/raleway-black.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-black.woff") format("woff"), url("../fonts/raleway-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-bold.eot");
+  src: url("../fonts/raleway-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-bold.woff") format("woff"), url("../fonts/raleway-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-extrabold.eot");
+  src: url("../fonts/raleway-extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-extrabold.woff") format("woff"), url("../fonts/raleway-extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-extralight.eot");
+  src: url("../fonts/raleway-extralight.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-extralight.woff") format("woff"), url("../fonts/raleway-extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-light.eot");
+  src: url("../fonts/raleway-light.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-light.woff") format("woff"), url("../fonts/raleway-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-medium.eot");
+  src: url("../fonts/raleway-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-medium.woff") format("woff"), url("../fonts/raleway-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-regular.eot");
+  src: url("../fonts/raleway-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-regular.woff") format("woff"), url("../fonts/raleway-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-semibold.woff") format("woff"), url("../fonts/raleway-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway-thin.eot");
+  src: url("../fonts/raleway-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-thin.woff") format("woff"), url("../fonts/raleway-thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover,
+  button:focus {
+    background-color: #2c5999;
+    color: #fff; }
+  /* line 27, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Raleway";
+  font-size: 1em; }
+
+/* line 16, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple],
+textarea {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color;
+  width: 100%; }
+  /* line 44, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+  select[multiple=multiple]:hover,
+  textarea:hover {
+    border-color: #d0d0d0; }
+  /* line 48, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+  select[multiple=multiple]:focus,
+  textarea:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 55, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 59, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 63, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 69, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%; }
+
+/* line 74, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_tables.scss */
+table {
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  -moz-font-feature-settings: "kern", "liga", "tnum";
+  -ms-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #c3c3c3;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0.75em 0; }
+
+/* line 21, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+body {
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #4f4d51;
+  font-family: "Raleway";
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 10, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bitter";
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 22, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+h3 {
+  font-size: 1.9rem;
+  font-weight: 900;
+  border-top: 10px solid #FD2;
+  line-height: 2rem;
+  padding: 1rem 0; }
+
+/* line 35, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 39, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 0.1s linear; }
+  /* line 44, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #2c5999; }
+  /* line 50, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/* line 56, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #e9e9e9;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 64, /home/vilinicz/projects/ramch/source/assets/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 4, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 4, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_core.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
+
+/* makes the font 33% larger relative to the icon container */
+/* line 6, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+/* line 11, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 12, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 13, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 14, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_larger.scss */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 4, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center; }
+
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  /* line 9, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_list.scss */
+  .fa-ul > li {
+    position: relative; }
+
+/* line 11, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center; }
+  /* line 17, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_list.scss */
+  .fa-li.fa-lg {
+    left: -1.85714em; }
+
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em; }
+
+/* line 11, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-right {
+  float: right; }
+
+/* line 12, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-left {
+  float: left; }
+
+/* line 15, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-left {
+  margin-right: .3em; }
+/* line 16, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-right {
+  margin-left: .3em; }
+
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_animated.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+/* line 10, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_animated.scss */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 6, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 7, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 9, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 10, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 15, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none; }
+
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 13, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 19, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 20, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 21, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-inverse {
+  color: #fff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 5, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-glass:before {
+  content: ""; }
+
+/* line 6, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-music:before {
+  content: ""; }
+
+/* line 7, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search:before {
+  content: ""; }
+
+/* line 8, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-o:before {
+  content: ""; }
+
+/* line 9, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart:before {
+  content: ""; }
+
+/* line 10, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star:before {
+  content: ""; }
+
+/* line 11, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-o:before {
+  content: ""; }
+
+/* line 12, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user:before {
+  content: ""; }
+
+/* line 13, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-film:before {
+  content: ""; }
+
+/* line 14, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-large:before {
+  content: ""; }
+
+/* line 15, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th:before {
+  content: ""; }
+
+/* line 16, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-list:before {
+  content: ""; }
+
+/* line 17, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check:before {
+  content: ""; }
+
+/* line 18, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: ""; }
+
+/* line 21, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-plus:before {
+  content: ""; }
+
+/* line 22, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-minus:before {
+  content: ""; }
+
+/* line 23, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-power-off:before {
+  content: ""; }
+
+/* line 24, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-signal:before {
+  content: ""; }
+
+/* line 25, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: ""; }
+
+/* line 27, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash-o:before {
+  content: ""; }
+
+/* line 28, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-home:before {
+  content: ""; }
+
+/* line 29, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-o:before {
+  content: ""; }
+
+/* line 30, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-clock-o:before {
+  content: ""; }
+
+/* line 31, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-road:before {
+  content: ""; }
+
+/* line 32, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-download:before {
+  content: ""; }
+
+/* line 33, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: ""; }
+
+/* line 34, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: ""; }
+
+/* line 35, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-inbox:before {
+  content: ""; }
+
+/* line 36, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle-o:before {
+  content: ""; }
+
+/* line 37, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: ""; }
+
+/* line 39, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-refresh:before {
+  content: ""; }
+
+/* line 40, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-alt:before {
+  content: ""; }
+
+/* line 41, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lock:before {
+  content: ""; }
+
+/* line 42, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag:before {
+  content: ""; }
+
+/* line 43, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-headphones:before {
+  content: ""; }
+
+/* line 44, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-off:before {
+  content: ""; }
+
+/* line 45, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-down:before {
+  content: ""; }
+
+/* line 46, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-up:before {
+  content: ""; }
+
+/* line 47, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qrcode:before {
+  content: ""; }
+
+/* line 48, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-barcode:before {
+  content: ""; }
+
+/* line 49, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tag:before {
+  content: ""; }
+
+/* line 50, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tags:before {
+  content: ""; }
+
+/* line 51, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-book:before {
+  content: ""; }
+
+/* line 52, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark:before {
+  content: ""; }
+
+/* line 53, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-print:before {
+  content: ""; }
+
+/* line 54, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera:before {
+  content: ""; }
+
+/* line 55, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-font:before {
+  content: ""; }
+
+/* line 56, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bold:before {
+  content: ""; }
+
+/* line 57, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-italic:before {
+  content: ""; }
+
+/* line 58, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-height:before {
+  content: ""; }
+
+/* line 59, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-width:before {
+  content: ""; }
+
+/* line 60, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-left:before {
+  content: ""; }
+
+/* line 61, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-center:before {
+  content: ""; }
+
+/* line 62, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-right:before {
+  content: ""; }
+
+/* line 63, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-justify:before {
+  content: ""; }
+
+/* line 64, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list:before {
+  content: ""; }
+
+/* line 65, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: ""; }
+
+/* line 67, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-indent:before {
+  content: ""; }
+
+/* line 68, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-video-camera:before {
+  content: ""; }
+
+/* line 69, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: ""; }
+
+/* line 72, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil:before {
+  content: ""; }
+
+/* line 73, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-marker:before {
+  content: ""; }
+
+/* line 74, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adjust:before {
+  content: ""; }
+
+/* line 75, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tint:before {
+  content: ""; }
+
+/* line 76, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: ""; }
+
+/* line 78, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square-o:before {
+  content: ""; }
+
+/* line 79, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square-o:before {
+  content: ""; }
+
+/* line 80, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows:before {
+  content: ""; }
+
+/* line 81, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-backward:before {
+  content: ""; }
+
+/* line 82, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-backward:before {
+  content: ""; }
+
+/* line 83, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-backward:before {
+  content: ""; }
+
+/* line 84, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play:before {
+  content: ""; }
+
+/* line 85, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause:before {
+  content: ""; }
+
+/* line 86, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop:before {
+  content: ""; }
+
+/* line 87, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forward:before {
+  content: ""; }
+
+/* line 88, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-forward:before {
+  content: ""; }
+
+/* line 89, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-forward:before {
+  content: ""; }
+
+/* line 90, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eject:before {
+  content: ""; }
+
+/* line 91, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-left:before {
+  content: ""; }
+
+/* line 92, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-right:before {
+  content: ""; }
+
+/* line 93, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-circle:before {
+  content: ""; }
+
+/* line 94, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-circle:before {
+  content: ""; }
+
+/* line 95, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle:before {
+  content: ""; }
+
+/* line 96, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle:before {
+  content: ""; }
+
+/* line 97, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question-circle:before {
+  content: ""; }
+
+/* line 98, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info-circle:before {
+  content: ""; }
+
+/* line 99, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crosshairs:before {
+  content: ""; }
+
+/* line 100, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle-o:before {
+  content: ""; }
+
+/* line 101, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle-o:before {
+  content: ""; }
+
+/* line 102, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ban:before {
+  content: ""; }
+
+/* line 103, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-left:before {
+  content: ""; }
+
+/* line 104, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-right:before {
+  content: ""; }
+
+/* line 105, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-up:before {
+  content: ""; }
+
+/* line 106, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-down:before {
+  content: ""; }
+
+/* line 107, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: ""; }
+
+/* line 109, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-expand:before {
+  content: ""; }
+
+/* line 110, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compress:before {
+  content: ""; }
+
+/* line 111, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus:before {
+  content: ""; }
+
+/* line 112, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus:before {
+  content: ""; }
+
+/* line 113, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-asterisk:before {
+  content: ""; }
+
+/* line 114, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation-circle:before {
+  content: ""; }
+
+/* line 115, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gift:before {
+  content: ""; }
+
+/* line 116, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leaf:before {
+  content: ""; }
+
+/* line 117, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire:before {
+  content: ""; }
+
+/* line 118, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye:before {
+  content: ""; }
+
+/* line 119, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye-slash:before {
+  content: ""; }
+
+/* line 120, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: ""; }
+
+/* line 122, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plane:before {
+  content: ""; }
+
+/* line 123, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar:before {
+  content: ""; }
+
+/* line 124, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-random:before {
+  content: ""; }
+
+/* line 125, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment:before {
+  content: ""; }
+
+/* line 126, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magnet:before {
+  content: ""; }
+
+/* line 127, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-up:before {
+  content: ""; }
+
+/* line 128, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-down:before {
+  content: ""; }
+
+/* line 129, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-retweet:before {
+  content: ""; }
+
+/* line 130, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-cart:before {
+  content: ""; }
+
+/* line 131, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder:before {
+  content: ""; }
+
+/* line 132, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open:before {
+  content: ""; }
+
+/* line 133, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-v:before {
+  content: ""; }
+
+/* line 134, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-h:before {
+  content: ""; }
+
+/* line 135, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: ""; }
+
+/* line 137, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter-square:before {
+  content: ""; }
+
+/* line 138, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-square:before {
+  content: ""; }
+
+/* line 139, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera-retro:before {
+  content: ""; }
+
+/* line 140, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-key:before {
+  content: ""; }
+
+/* line 141, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: ""; }
+
+/* line 143, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments:before {
+  content: ""; }
+
+/* line 144, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: ""; }
+
+/* line 145, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: ""; }
+
+/* line 146, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half:before {
+  content: ""; }
+
+/* line 147, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart-o:before {
+  content: ""; }
+
+/* line 148, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-out:before {
+  content: ""; }
+
+/* line 149, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin-square:before {
+  content: ""; }
+
+/* line 150, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumb-tack:before {
+  content: ""; }
+
+/* line 151, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link:before {
+  content: ""; }
+
+/* line 152, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-in:before {
+  content: ""; }
+
+/* line 153, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trophy:before {
+  content: ""; }
+
+/* line 154, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-square:before {
+  content: ""; }
+
+/* line 155, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-upload:before {
+  content: ""; }
+
+/* line 156, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lemon-o:before {
+  content: ""; }
+
+/* line 157, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone:before {
+  content: ""; }
+
+/* line 158, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square-o:before {
+  content: ""; }
+
+/* line 159, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark-o:before {
+  content: ""; }
+
+/* line 160, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone-square:before {
+  content: ""; }
+
+/* line 161, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter:before {
+  content: ""; }
+
+/* line 162, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: ""; }
+
+/* line 164, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github:before {
+  content: ""; }
+
+/* line 165, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock:before {
+  content: ""; }
+
+/* line 166, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-credit-card:before {
+  content: ""; }
+
+/* line 167, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss:before {
+  content: ""; }
+
+/* line 168, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hdd-o:before {
+  content: ""; }
+
+/* line 169, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullhorn:before {
+  content: ""; }
+
+/* line 170, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell:before {
+  content: ""; }
+
+/* line 171, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-certificate:before {
+  content: ""; }
+
+/* line 172, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-right:before {
+  content: ""; }
+
+/* line 173, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-left:before {
+  content: ""; }
+
+/* line 174, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-up:before {
+  content: ""; }
+
+/* line 175, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-down:before {
+  content: ""; }
+
+/* line 176, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: ""; }
+
+/* line 177, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: ""; }
+
+/* line 178, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: ""; }
+
+/* line 179, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: ""; }
+
+/* line 180, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-globe:before {
+  content: ""; }
+
+/* line 181, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wrench:before {
+  content: ""; }
+
+/* line 182, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tasks:before {
+  content: ""; }
+
+/* line 183, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-filter:before {
+  content: ""; }
+
+/* line 184, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-briefcase:before {
+  content: ""; }
+
+/* line 185, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-alt:before {
+  content: ""; }
+
+/* line 186, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: ""; }
+
+/* line 188, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: ""; }
+
+/* line 190, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud:before {
+  content: ""; }
+
+/* line 191, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flask:before {
+  content: ""; }
+
+/* line 192, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: ""; }
+
+/* line 194, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: ""; }
+
+/* line 196, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paperclip:before {
+  content: ""; }
+
+/* line 197, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: ""; }
+
+/* line 199, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square:before {
+  content: ""; }
+
+/* line 200, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: ""; }
+
+/* line 203, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ul:before {
+  content: ""; }
+
+/* line 204, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ol:before {
+  content: ""; }
+
+/* line 205, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-strikethrough:before {
+  content: ""; }
+
+/* line 206, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-underline:before {
+  content: ""; }
+
+/* line 207, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-table:before {
+  content: ""; }
+
+/* line 208, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magic:before {
+  content: ""; }
+
+/* line 209, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-truck:before {
+  content: ""; }
+
+/* line 210, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest:before {
+  content: ""; }
+
+/* line 211, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-square:before {
+  content: ""; }
+
+/* line 212, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus-square:before {
+  content: ""; }
+
+/* line 213, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus:before {
+  content: ""; }
+
+/* line 214, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-money:before {
+  content: ""; }
+
+/* line 215, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-down:before {
+  content: ""; }
+
+/* line 216, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-up:before {
+  content: ""; }
+
+/* line 217, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-left:before {
+  content: ""; }
+
+/* line 218, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-right:before {
+  content: ""; }
+
+/* line 219, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-columns:before {
+  content: ""; }
+
+/* line 220, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: ""; }
+
+/* line 222, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: ""; }
+
+/* line 224, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: ""; }
+
+/* line 226, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope:before {
+  content: ""; }
+
+/* line 227, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin:before {
+  content: ""; }
+
+/* line 228, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: ""; }
+
+/* line 230, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: ""; }
+
+/* line 232, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: ""; }
+
+/* line 234, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment-o:before {
+  content: ""; }
+
+/* line 235, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments-o:before {
+  content: ""; }
+
+/* line 236, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: ""; }
+
+/* line 238, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sitemap:before {
+  content: ""; }
+
+/* line 239, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-umbrella:before {
+  content: ""; }
+
+/* line 240, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: ""; }
+
+/* line 242, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lightbulb-o:before {
+  content: ""; }
+
+/* line 243, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exchange:before {
+  content: ""; }
+
+/* line 244, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-download:before {
+  content: ""; }
+
+/* line 245, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-upload:before {
+  content: ""; }
+
+/* line 246, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-md:before {
+  content: ""; }
+
+/* line 247, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stethoscope:before {
+  content: ""; }
+
+/* line 248, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-suitcase:before {
+  content: ""; }
+
+/* line 249, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-o:before {
+  content: ""; }
+
+/* line 250, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-coffee:before {
+  content: ""; }
+
+/* line 251, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cutlery:before {
+  content: ""; }
+
+/* line 252, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text-o:before {
+  content: ""; }
+
+/* line 253, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building-o:before {
+  content: ""; }
+
+/* line 254, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hospital-o:before {
+  content: ""; }
+
+/* line 255, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ambulance:before {
+  content: ""; }
+
+/* line 256, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medkit:before {
+  content: ""; }
+
+/* line 257, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fighter-jet:before {
+  content: ""; }
+
+/* line 258, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-beer:before {
+  content: ""; }
+
+/* line 259, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-h-square:before {
+  content: ""; }
+
+/* line 260, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square:before {
+  content: ""; }
+
+/* line 261, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-left:before {
+  content: ""; }
+
+/* line 262, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-right:before {
+  content: ""; }
+
+/* line 263, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-up:before {
+  content: ""; }
+
+/* line 264, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-down:before {
+  content: ""; }
+
+/* line 265, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-left:before {
+  content: ""; }
+
+/* line 266, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-right:before {
+  content: ""; }
+
+/* line 267, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-up:before {
+  content: ""; }
+
+/* line 268, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-down:before {
+  content: ""; }
+
+/* line 269, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-desktop:before {
+  content: ""; }
+
+/* line 270, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-laptop:before {
+  content: ""; }
+
+/* line 271, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tablet:before {
+  content: ""; }
+
+/* line 272, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: ""; }
+
+/* line 274, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o:before {
+  content: ""; }
+
+/* line 275, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-left:before {
+  content: ""; }
+
+/* line 276, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-right:before {
+  content: ""; }
+
+/* line 277, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spinner:before {
+  content: ""; }
+
+/* line 278, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle:before {
+  content: ""; }
+
+/* line 279, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: ""; }
+
+/* line 281, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-alt:before {
+  content: ""; }
+
+/* line 282, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-o:before {
+  content: ""; }
+
+/* line 283, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open-o:before {
+  content: ""; }
+
+/* line 284, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-smile-o:before {
+  content: ""; }
+
+/* line 285, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-frown-o:before {
+  content: ""; }
+
+/* line 286, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meh-o:before {
+  content: ""; }
+
+/* line 287, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gamepad:before {
+  content: ""; }
+
+/* line 288, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-keyboard-o:before {
+  content: ""; }
+
+/* line 289, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-o:before {
+  content: ""; }
+
+/* line 290, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-checkered:before {
+  content: ""; }
+
+/* line 291, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-terminal:before {
+  content: ""; }
+
+/* line 292, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code:before {
+  content: ""; }
+
+/* line 293, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: ""; }
+
+/* line 295, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: ""; }
+
+/* line 298, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-location-arrow:before {
+  content: ""; }
+
+/* line 299, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crop:before {
+  content: ""; }
+
+/* line 300, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code-fork:before {
+  content: ""; }
+
+/* line 301, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: ""; }
+
+/* line 303, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question:before {
+  content: ""; }
+
+/* line 304, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info:before {
+  content: ""; }
+
+/* line 305, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation:before {
+  content: ""; }
+
+/* line 306, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-superscript:before {
+  content: ""; }
+
+/* line 307, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subscript:before {
+  content: ""; }
+
+/* line 308, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eraser:before {
+  content: ""; }
+
+/* line 309, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-puzzle-piece:before {
+  content: ""; }
+
+/* line 310, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone:before {
+  content: ""; }
+
+/* line 311, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone-slash:before {
+  content: ""; }
+
+/* line 312, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shield:before {
+  content: ""; }
+
+/* line 313, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-o:before {
+  content: ""; }
+
+/* line 314, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: ""; }
+
+/* line 315, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rocket:before {
+  content: ""; }
+
+/* line 316, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-maxcdn:before {
+  content: ""; }
+
+/* line 317, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: ""; }
+
+/* line 318, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: ""; }
+
+/* line 319, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: ""; }
+
+/* line 320, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: ""; }
+
+/* line 321, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-html5:before {
+  content: ""; }
+
+/* line 322, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-css3:before {
+  content: ""; }
+
+/* line 323, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-anchor:before {
+  content: ""; }
+
+/* line 324, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock-alt:before {
+  content: ""; }
+
+/* line 325, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullseye:before {
+  content: ""; }
+
+/* line 326, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-h:before {
+  content: ""; }
+
+/* line 327, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-v:before {
+  content: ""; }
+
+/* line 328, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss-square:before {
+  content: ""; }
+
+/* line 329, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle:before {
+  content: ""; }
+
+/* line 330, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ticket:before {
+  content: ""; }
+
+/* line 331, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square:before {
+  content: ""; }
+
+/* line 332, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square-o:before {
+  content: ""; }
+
+/* line 333, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-up:before {
+  content: ""; }
+
+/* line 334, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-down:before {
+  content: ""; }
+
+/* line 335, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square:before {
+  content: ""; }
+
+/* line 336, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil-square:before {
+  content: ""; }
+
+/* line 337, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link-square:before {
+  content: ""; }
+
+/* line 338, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square:before {
+  content: ""; }
+
+/* line 339, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compass:before {
+  content: ""; }
+
+/* line 340, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: ""; }
+
+/* line 342, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: ""; }
+
+/* line 344, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: ""; }
+
+/* line 346, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: ""; }
+
+/* line 348, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gbp:before {
+  content: ""; }
+
+/* line 349, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: ""; }
+
+/* line 351, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: ""; }
+
+/* line 353, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: ""; }
+
+/* line 357, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: ""; }
+
+/* line 360, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: ""; }
+
+/* line 362, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: ""; }
+
+/* line 364, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file:before {
+  content: ""; }
+
+/* line 365, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text:before {
+  content: ""; }
+
+/* line 366, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: ""; }
+
+/* line 367, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: ""; }
+
+/* line 368, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: ""; }
+
+/* line 369, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: ""; }
+
+/* line 370, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: ""; }
+
+/* line 371, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: ""; }
+
+/* line 372, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-up:before {
+  content: ""; }
+
+/* line 373, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-down:before {
+  content: ""; }
+
+/* line 374, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-square:before {
+  content: ""; }
+
+/* line 375, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube:before {
+  content: ""; }
+
+/* line 376, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing:before {
+  content: ""; }
+
+/* line 377, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing-square:before {
+  content: ""; }
+
+/* line 378, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-play:before {
+  content: ""; }
+
+/* line 379, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dropbox:before {
+  content: ""; }
+
+/* line 380, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-overflow:before {
+  content: ""; }
+
+/* line 381, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-instagram:before {
+  content: ""; }
+
+/* line 382, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flickr:before {
+  content: ""; }
+
+/* line 383, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adn:before {
+  content: ""; }
+
+/* line 384, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket:before {
+  content: ""; }
+
+/* line 385, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket-square:before {
+  content: ""; }
+
+/* line 386, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr:before {
+  content: ""; }
+
+/* line 387, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr-square:before {
+  content: ""; }
+
+/* line 388, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-down:before {
+  content: ""; }
+
+/* line 389, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-up:before {
+  content: ""; }
+
+/* line 390, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-left:before {
+  content: ""; }
+
+/* line 391, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-right:before {
+  content: ""; }
+
+/* line 392, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-apple:before {
+  content: ""; }
+
+/* line 393, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-windows:before {
+  content: ""; }
+
+/* line 394, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-android:before {
+  content: ""; }
+
+/* line 395, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linux:before {
+  content: ""; }
+
+/* line 396, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dribbble:before {
+  content: ""; }
+
+/* line 397, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skype:before {
+  content: ""; }
+
+/* line 398, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-foursquare:before {
+  content: ""; }
+
+/* line 399, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trello:before {
+  content: ""; }
+
+/* line 400, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-female:before {
+  content: ""; }
+
+/* line 401, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-male:before {
+  content: ""; }
+
+/* line 402, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: ""; }
+
+/* line 404, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sun-o:before {
+  content: ""; }
+
+/* line 405, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-moon-o:before {
+  content: ""; }
+
+/* line 406, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-archive:before {
+  content: ""; }
+
+/* line 407, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bug:before {
+  content: ""; }
+
+/* line 408, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vk:before {
+  content: ""; }
+
+/* line 409, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-weibo:before {
+  content: ""; }
+
+/* line 410, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-renren:before {
+  content: ""; }
+
+/* line 411, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pagelines:before {
+  content: ""; }
+
+/* line 412, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-exchange:before {
+  content: ""; }
+
+/* line 413, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: ""; }
+
+/* line 414, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: ""; }
+
+/* line 415, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: ""; }
+
+/* line 417, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dot-circle-o:before {
+  content: ""; }
+
+/* line 418, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wheelchair:before {
+  content: ""; }
+
+/* line 419, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vimeo-square:before {
+  content: ""; }
+
+/* line 420, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: ""; }
+
+/* line 422, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square-o:before {
+  content: ""; }
+
+/* line 423, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-space-shuttle:before {
+  content: ""; }
+
+/* line 424, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slack:before {
+  content: ""; }
+
+/* line 425, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-square:before {
+  content: ""; }
+
+/* line 426, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wordpress:before {
+  content: ""; }
+
+/* line 427, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-openid:before {
+  content: ""; }
+
+/* line 428, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: ""; }
+
+/* line 431, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: ""; }
+
+/* line 433, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yahoo:before {
+  content: ""; }
+
+/* line 434, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google:before {
+  content: ""; }
+
+/* line 435, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit:before {
+  content: ""; }
+
+/* line 436, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit-square:before {
+  content: ""; }
+
+/* line 437, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: ""; }
+
+/* line 438, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon:before {
+  content: ""; }
+
+/* line 439, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-delicious:before {
+  content: ""; }
+
+/* line 440, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-digg:before {
+  content: ""; }
+
+/* line 441, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper:before {
+  content: ""; }
+
+/* line 442, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: ""; }
+
+/* line 443, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-drupal:before {
+  content: ""; }
+
+/* line 444, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-joomla:before {
+  content: ""; }
+
+/* line 445, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-language:before {
+  content: ""; }
+
+/* line 446, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fax:before {
+  content: ""; }
+
+/* line 447, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building:before {
+  content: ""; }
+
+/* line 448, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-child:before {
+  content: ""; }
+
+/* line 449, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paw:before {
+  content: ""; }
+
+/* line 450, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spoon:before {
+  content: ""; }
+
+/* line 451, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cube:before {
+  content: ""; }
+
+/* line 452, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cubes:before {
+  content: ""; }
+
+/* line 453, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance:before {
+  content: ""; }
+
+/* line 454, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance-square:before {
+  content: ""; }
+
+/* line 455, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam:before {
+  content: ""; }
+
+/* line 456, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam-square:before {
+  content: ""; }
+
+/* line 457, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-recycle:before {
+  content: ""; }
+
+/* line 458, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: ""; }
+
+/* line 460, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: ""; }
+
+/* line 462, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tree:before {
+  content: ""; }
+
+/* line 463, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spotify:before {
+  content: ""; }
+
+/* line 464, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-deviantart:before {
+  content: ""; }
+
+/* line 465, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soundcloud:before {
+  content: ""; }
+
+/* line 466, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-database:before {
+  content: ""; }
+
+/* line 467, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-pdf-o:before {
+  content: ""; }
+
+/* line 468, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-word-o:before {
+  content: ""; }
+
+/* line 469, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-excel-o:before {
+  content: ""; }
+
+/* line 470, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: ""; }
+
+/* line 471, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: ""; }
+
+/* line 474, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: ""; }
+
+/* line 476, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: ""; }
+
+/* line 478, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: ""; }
+
+/* line 480, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-code-o:before {
+  content: ""; }
+
+/* line 481, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vine:before {
+  content: ""; }
+
+/* line 482, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-codepen:before {
+  content: ""; }
+
+/* line 483, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-jsfiddle:before {
+  content: ""; }
+
+/* line 484, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: ""; }
+
+/* line 489, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o-notch:before {
+  content: ""; }
+
+/* line 490, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: ""; }
+
+/* line 492, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: ""; }
+
+/* line 494, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git-square:before {
+  content: ""; }
+
+/* line 495, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git:before {
+  content: ""; }
+
+/* line 496, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hacker-news:before {
+  content: ""; }
+
+/* line 497, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tencent-weibo:before {
+  content: ""; }
+
+/* line 498, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qq:before {
+  content: ""; }
+
+/* line 499, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: ""; }
+
+/* line 501, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: ""; }
+
+/* line 503, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: ""; }
+
+/* line 505, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-history:before {
+  content: ""; }
+
+/* line 506, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-genderless:before,
+.fa-circle-thin:before {
+  content: ""; }
+
+/* line 508, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-header:before {
+  content: ""; }
+
+/* line 509, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paragraph:before {
+  content: ""; }
+
+/* line 510, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sliders:before {
+  content: ""; }
+
+/* line 511, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt:before {
+  content: ""; }
+
+/* line 512, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt-square:before {
+  content: ""; }
+
+/* line 513, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bomb:before {
+  content: ""; }
+
+/* line 514, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: ""; }
+
+/* line 516, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tty:before {
+  content: ""; }
+
+/* line 517, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-binoculars:before {
+  content: ""; }
+
+/* line 518, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plug:before {
+  content: ""; }
+
+/* line 519, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slideshare:before {
+  content: ""; }
+
+/* line 520, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitch:before {
+  content: ""; }
+
+/* line 521, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yelp:before {
+  content: ""; }
+
+/* line 522, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-newspaper-o:before {
+  content: ""; }
+
+/* line 523, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wifi:before {
+  content: ""; }
+
+/* line 524, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calculator:before {
+  content: ""; }
+
+/* line 525, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paypal:before {
+  content: ""; }
+
+/* line 526, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-wallet:before {
+  content: ""; }
+
+/* line 527, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-visa:before {
+  content: ""; }
+
+/* line 528, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-mastercard:before {
+  content: ""; }
+
+/* line 529, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-discover:before {
+  content: ""; }
+
+/* line 530, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-amex:before {
+  content: ""; }
+
+/* line 531, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-paypal:before {
+  content: ""; }
+
+/* line 532, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-stripe:before {
+  content: ""; }
+
+/* line 533, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash:before {
+  content: ""; }
+
+/* line 534, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash-o:before {
+  content: ""; }
+
+/* line 535, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash:before {
+  content: ""; }
+
+/* line 536, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copyright:before {
+  content: ""; }
+
+/* line 537, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-at:before {
+  content: ""; }
+
+/* line 538, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eyedropper:before {
+  content: ""; }
+
+/* line 539, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paint-brush:before {
+  content: ""; }
+
+/* line 540, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-birthday-cake:before {
+  content: ""; }
+
+/* line 541, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-area-chart:before {
+  content: ""; }
+
+/* line 542, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pie-chart:before {
+  content: ""; }
+
+/* line 543, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-line-chart:before {
+  content: ""; }
+
+/* line 544, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm:before {
+  content: ""; }
+
+/* line 545, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm-square:before {
+  content: ""; }
+
+/* line 546, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-off:before {
+  content: ""; }
+
+/* line 547, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-on:before {
+  content: ""; }
+
+/* line 548, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bicycle:before {
+  content: ""; }
+
+/* line 549, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bus:before {
+  content: ""; }
+
+/* line 550, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ioxhost:before {
+  content: ""; }
+
+/* line 551, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angellist:before {
+  content: ""; }
+
+/* line 552, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc:before {
+  content: ""; }
+
+/* line 553, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: ""; }
+
+/* line 556, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meanpath:before {
+  content: ""; }
+
+/* line 557, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-buysellads:before {
+  content: ""; }
+
+/* line 558, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-connectdevelop:before {
+  content: ""; }
+
+/* line 559, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashcube:before {
+  content: ""; }
+
+/* line 560, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forumbee:before {
+  content: ""; }
+
+/* line 561, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leanpub:before {
+  content: ""; }
+
+/* line 562, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sellsy:before {
+  content: ""; }
+
+/* line 563, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shirtsinbulk:before {
+  content: ""; }
+
+/* line 564, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-simplybuilt:before {
+  content: ""; }
+
+/* line 565, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skyatlas:before {
+  content: ""; }
+
+/* line 566, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-plus:before {
+  content: ""; }
+
+/* line 567, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-arrow-down:before {
+  content: ""; }
+
+/* line 568, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-diamond:before {
+  content: ""; }
+
+/* line 569, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ship:before {
+  content: ""; }
+
+/* line 570, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-secret:before {
+  content: ""; }
+
+/* line 571, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-motorcycle:before {
+  content: ""; }
+
+/* line 572, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-street-view:before {
+  content: ""; }
+
+/* line 573, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heartbeat:before {
+  content: ""; }
+
+/* line 574, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus:before {
+  content: ""; }
+
+/* line 575, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars:before {
+  content: ""; }
+
+/* line 576, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mercury:before {
+  content: ""; }
+
+/* line 577, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-transgender:before {
+  content: ""; }
+
+/* line 578, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-transgender-alt:before {
+  content: ""; }
+
+/* line 579, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-double:before {
+  content: ""; }
+
+/* line 580, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-double:before {
+  content: ""; }
+
+/* line 581, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-mars:before {
+  content: ""; }
+
+/* line 582, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke:before {
+  content: ""; }
+
+/* line 583, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-v:before {
+  content: ""; }
+
+/* line 584, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-h:before {
+  content: ""; }
+
+/* line 585, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-neuter:before {
+  content: ""; }
+
+/* line 586, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-official:before {
+  content: ""; }
+
+/* line 587, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-p:before {
+  content: ""; }
+
+/* line 588, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-whatsapp:before {
+  content: ""; }
+
+/* line 589, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-server:before {
+  content: ""; }
+
+/* line 590, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-plus:before {
+  content: ""; }
+
+/* line 591, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-times:before {
+  content: ""; }
+
+/* line 592, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hotel:before,
+.fa-bed:before {
+  content: ""; }
+
+/* line 594, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-viacoin:before {
+  content: ""; }
+
+/* line 595, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-train:before {
+  content: ""; }
+
+/* line 596, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subway:before {
+  content: ""; }
+
+/* line 597, /home/vilinicz/.rvm/gems/ruby-2.2.3/gems/font-awesome-middleman-4.3.0/app/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medium:before {
+  content: ""; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+body {
+  background-color: #e9e9e9;
+  background-image: url("../images/header-bg.svg");
+  background-repeat: no-repeat;
+  color: #4f4d51; }
+
+/* line 9, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#danger {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000000;
+  background-color: #4f4d51;
+  color: #FD2;
+  text-align: center; }
+  /* line 17, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  #danger h1 {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 4rem; }
+    @media screen and (max-width: 832px) {
+      /* line 17, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      #danger h1 {
+        font-size: 2rem; } }
+
+/* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+b {
+  text-decoration: underline; }
+
+/* line 27, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+.lead {
+  font-family: "Bitter";
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.8rem; }
+
+/* line 35, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+/* line 43, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+.hero {
+  min-height: 85vh;
+  padding: 7rem 8rem 0rem 8rem; }
+  @media screen and (max-width: 832px) {
+    /* line 43, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .hero {
+      text-align: center;
+      padding: 200px 0rem 80px 0; } }
+  /* line 58, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .hero h1 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 7.3rem;
+    line-height: 100%;
+    border-bottom: 10px solid #FD2;
+    text-shadow: 0 0 3px rgba(79, 77, 81, 0.5);
+    margin-left: 1rem;
+    margin-bottom: 3rem; }
+    @media screen and (max-width: 832px) {
+      /* line 58, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .hero h1 {
+        display: block;
+        text-align: center;
+        font-size: 5rem;
+        margin-left: 0;
+        margin-top: 2rem; } }
+  /* line 76, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .hero p {
+    font-size: 1.4rem;
+    width: 80%;
+    font-weight: 500;
+    margin-bottom: 2.4rem; }
+    @media screen and (max-width: 832px) {
+      /* line 76, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .hero p {
+        width: 100%; } }
+
+/* line 87, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#left, #right, #top, #bottom {
+  background: #4f4d51;
+  position: fixed;
+  z-index: 5; }
+
+/* line 92, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#left, #right {
+  width: 1rem;
+  top: 0;
+  bottom: 0; }
+  @media screen and (max-width: 832px) {
+    /* line 92, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    #left, #right {
+      visibility: hidden; } }
+
+/* line 100, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#top, #bottom {
+  height: 1rem;
+  left: 0;
+  right: 0; }
+
+/* line 105, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#left {
+  left: 0; }
+
+/* line 108, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#right {
+  right: 0; }
+
+/* line 111, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#top {
+  top: 0; }
+
+/* line 114, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+#bottom {
+  bottom: 0; }
+
+/* line 120, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+.about-section {
+  position: relative; }
+  /* line 123, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .landscape, .about-section .repair, .about-section .overall {
+    background-color: #e1e1e1;
+    margin: 0;
+    padding: 0 1rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: center; }
+    /* line 132, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .landscape:after, .about-section .repair:after, .about-section .overall:after {
+      clear: both; }
+    @media screen and (max-width: 832px) {
+      /* line 123, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .about-section .landscape, .about-section .repair, .about-section .overall {
+        text-align: center;
+        height: 120vh;
+        padding: 0; } }
+    /* line 141, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .landscape .image, .about-section .repair .image, .about-section .overall .image {
+      float: left;
+      width: 50%;
+      height: 100%; }
+      @media screen and (max-width: 832px) {
+        /* line 141, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+        .about-section .landscape .image, .about-section .repair .image, .about-section .overall .image {
+          width: 100%;
+          height: 30%;
+          float: none; } }
+    /* line 142, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .landscape .description, .about-section .repair .description, .about-section .overall .description {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      padding: 0 3rem;
+      float: left;
+      width: 50%; }
+      @media screen and (max-width: 832px) {
+        /* line 142, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+        .about-section .landscape .description, .about-section .repair .description, .about-section .overall .description {
+          width: 100%;
+          float: none;
+          padding: 0 0rem;
+          position: relative;
+          top: 5%;
+          -webkit-transform: translateY(-5%);
+          -ms-transform: translateY(-5%);
+          transform: translateY(-5%); } }
+      @media screen and (max-width: 832px) {
+        /* line 148, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+        .about-section .landscape .description h3, .about-section .repair .description h3, .about-section .overall .description h3 {
+          font-size: 1.2rem;
+          font-weight: bold;
+          line-height: 1.2rem;
+          padding: 1rem 0;
+          color: #4f4d51; } }
+      /* line 151, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .about-section .landscape .description ul, .about-section .repair .description ul, .about-section .overall .description ul {
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-top: 2%; }
+        /* line 157, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+        .about-section .landscape .description ul li, .about-section .repair .description ul li, .about-section .overall .description ul li {
+          margin: 1rem 0;
+          font-size: 1.1rem;
+          font-weight: 700; }
+          /* line 164, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+          .about-section .landscape .description ul li:first-child, .about-section .repair .description ul li:first-child, .about-section .overall .description ul li:first-child {
+            margin-top: 6%; }
+          @media screen and (max-width: 832px) {
+            /* line 157, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+            .about-section .landscape .description ul li, .about-section .repair .description ul li, .about-section .overall .description ul li {
+              margin: 0.3rem 0;
+              text-align: center; } }
+  /* line 175, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .landscape {
+    text-align: center; }
+  /* line 177, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .landscape > .image {
+    border-left: 18px solid #FD2;
+    background-image: url("../images/landscape2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  /* line 184, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .repair > .image {
+    border-right: 1rem solid #FD2;
+    background-image: url("../images/repair.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  /* line 192, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .overall {
+    border-top: 50px solid #e9e9e9;
+    background-color: #e9e9e9; }
+  /* line 193, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section .overall > .description {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+    width: 63%;
+    margin-right: 8rem;
+    text-align: center;
+    padding: 0 0 0 0; }
+    @media screen and (max-width: 832px) {
+      /* line 193, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .about-section .overall > .description {
+        width: 100%;
+        float: none; } }
+    /* line 204, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .overall > .description ul li {
+      font-style: normal;
+      font-family: "Raleway";
+      font-size: 1.1rem;
+      margin: 2rem 0;
+      font-weight: 400;
+      text-align: justify; }
+    /* line 212, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .overall > .description ul {
+      list-style: disc inside;
+      padding-bottom: 5rem; }
+    /* line 217, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+    .about-section .overall > .description .callme {
+      font-size: 2rem;
+      font-weight: 100; }
+  /* line 221, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+  .about-section:after {
+    position: absolute;
+    bottom: -5rem;
+    left: 1rem;
+    content: '';
+    height: 500px;
+    width: 300px;
+    background-image: url("../images/san.png"), linear-gradient(to bottom left, transparent, transparent 53%, rgba(79, 77, 81, 0.5), transparent);
+    background-size: contain;
+    background-position: top, center -2rem;
+    background-repeat: no-repeat; }
+    @media screen and (max-width: 832px) {
+      /* line 221, /home/vilinicz/projects/ramch/source/assets/stylesheets/_global.scss */
+      .about-section:after {
+        height: 400px;
+        width: 200px;
+        bottom: -10rem;
+        left: 0;
+        background-position: top, -1rem -6rem;
+        display: none; } }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/_logo.scss */
+#logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px; }
+  /* line 6, /home/vilinicz/projects/ramch/source/assets/stylesheets/_logo.scss */
+  #logo #square {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FD2;
+    box-shadow: 5px 0 5px -3px rgba(17, 17, 17, 0.3); }
+    /* line 12, /home/vilinicz/projects/ramch/source/assets/stylesheets/_logo.scss */
+    #logo #square #triangle {
+      width: 0;
+      margin-left: -10px;
+      border-right: 50px solid #4f4d51;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      box-shadow: 5px 0 5px -3px rgba(17, 17, 17, 0.5); }
+    /* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/_logo.scss */
+    #logo #square #flag {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 30px solid #4f4d51;
+      border-left: 25px solid transparent;
+      border-right: 25px solid #4f4d51;
+      right: 0em;
+      top: 0em; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+.header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem; }
+  @media screen and (max-width: 832px) {
+    /* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+    .header {
+      border-bottom: 1rem dotted #999;
+      padding-bottom: 1rem;
+      left: 0;
+      padding-left: 0rem;
+      padding-right: 0rem; } }
+  /* line 20, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+  .header .header-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    -o-align-items: flex-start;
+    align-items: flex-start;
+    -ms-flex-align: start;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    /* line 31, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+    .header .header-content .nav {
+      display: inline-block;
+      margin-right: 3rem;
+      -webkit-align-self: center;
+      -moz-align-self: center;
+      align-self: center;
+      -ms-flex-item-align: center; }
+      @media screen and (max-width: 832px) {
+        /* line 31, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+        .header .header-content .nav {
+          margin-right: 0; } }
+    @media screen and (max-width: 832px) {
+      /* line 39, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+      .header .header-content .nav > ul {
+        border-bottom: none;
+        border-left: 10px solid #FD2; } }
+    /* line 45, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+    .header .header-content .nav > ul li {
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 2.4rem;
+      margin-right: 10px;
+      margin-bottom: 0; }
+      @media screen and (max-width: 832px) {
+        /* line 45, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+        .header .header-content .nav > ul li {
+          display: block;
+          text-align: left;
+          margin-right: 1rem;
+          margin-left: 1rem; } }
+      /* line 61, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+      .header .header-content .nav > ul li a {
+        color: #4f4d51;
+        text-shadow: 0 0 2px rgba(79, 77, 81, 0.3); }
+        /* line 64, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+        .header .header-content .nav > ul li a:hover, .header .header-content .nav > ul li a:active, .header .header-content .nav > ul li a:focus {
+          color: #999; }
+    /* line 71, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+    .header .header-content .top-contact > ul {
+      border-right: 10px solid #FD2; }
+      /* line 73, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+      .header .header-content .top-contact > ul li {
+        margin-right: 1em;
+        display: block;
+        font-size: 1rem;
+        line-height: 2.4rem;
+        text-shadow: 0 0 2px rgba(79, 77, 81, 0.3);
+        font-weight: 300;
+        text-align: right; }
+        /* line 81, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+        .header .header-content .top-contact > ul li a {
+          color: #4f4d51;
+          border-bottom: 1px dashed #999; }
+          /* line 84, /home/vilinicz/projects/ramch/source/assets/stylesheets/_header.scss */
+          .header .header-content .top-contact > ul li a:hover, .header .header-content .top-contact > ul li a:active, .header .header-content .top-contact > ul li a:focus {
+            color: #999; }
+
+/* line 1, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+.yellow {
+  margin: 0;
+  background-color: #FD2;
+  height: 80px; }
+
+/* line 2, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+.contact-section {
+  position: relative;
+  height: 100vh;
+  font-weight: 800;
+  box-shadow: 0px 20px 0px #FD2 inset;
+  text-shadow: 0 0 2px rgba(79, 77, 81, 0.3);
+  background: radial-gradient(ellipse at 50% 50%, #ffffff 3%, rgba(195, 195, 195, 0.5) 100%); }
+  /* line 15, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+  .contact-section .contact-info {
+    position: relative;
+    top: 45%;
+    -webkit-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
+    font-size: 1.6rem;
+    text-shadow: 0 0 2px rgba(79, 77, 81, 0.3); }
+    @media screen and (max-width: 832px) {
+      /* line 15, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info {
+        text-align: center;
+        font-size: 1.4rem;
+        position: relative;
+        top: 45%;
+        -webkit-transform: translateY(-45%);
+        -ms-transform: translateY(-45%);
+        transform: translateY(-45%); }
+        /* line 23, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info #logo {
+          zoom: 0.5; } }
+    /* line 27, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+    .contact-section .contact-info .sexy-flex {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center; }
+      @media screen and (max-width: 832px) {
+        /* line 27, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info .sexy-flex {
+          -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
+          box-orient: vertical;
+          -webkit-box-direction: normal;
+          -moz-box-direction: normal;
+          box-direction: normal;
+          -webkit-flex-direction: column;
+          -moz-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-direction: column;
+          text-align: center; } }
+    /* line 37, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+    .contact-section .contact-info #logo {
+      display: block;
+      width: 250px;
+      height: 250px;
+      margin-right: 1rem; }
+      @media screen and (max-width: 832px) {
+        /* line 37, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info #logo {
+          margin-right: 0; } }
+      /* line 43, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info #logo #square {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #FD2;
+        box-shadow: 5px 0 5px -5px rgba(17, 17, 17, 0.3); }
+        /* line 49, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info #logo #square #triangle {
+          width: 0;
+          margin-left: -25px;
+          border-right: 125px solid #4f4d51;
+          border-top: 125px solid transparent;
+          border-bottom: 125px solid transparent;
+          box-shadow: 5px 0 5px -3px rgba(17, 17, 17, 0.5); }
+        /* line 57, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info #logo #square #flag {
+          position: absolute;
+          display: inline-block;
+          width: 0;
+          height: 0;
+          line-height: 0;
+          border: 75px solid #4f4d51;
+          border-left: 63px solid transparent;
+          border-right: 63px solid #4f4d51;
+          right: 0em;
+          top: 0em; }
+    /* line 72, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+    .contact-section .contact-info .contacts {
+      margin-left: 1rem; }
+      @media screen and (max-width: 832px) {
+        /* line 72, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+        .contact-section .contact-info .contacts {
+          margin-left: 0; } }
+      /* line 75, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info .contacts ul {
+        margin: 2rem 0; }
+        @media screen and (max-width: 832px) {
+          /* line 75, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+          .contact-section .contact-info .contacts ul {
+            margin: 1rem 0; } }
+      /* line 76, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info .contacts .city {
+        font-size: 1.1rem; }
+      /* line 77, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info .contacts .address {
+        font-size: 1.1rem;
+        width: 250px; }
+      /* line 78, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+      .contact-section .contact-info .contacts a {
+        color: #4f4d51;
+        border-bottom: 2px dotted #999; }
+
+/* line 83, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+.footer-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: 100%;
+  color: #4f4d51;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-shadow: 0 0 2px rgba(79, 77, 81, 0.3);
+  text-align: center; }
+  @media screen and (max-width: 832px) {
+    /* line 83, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+    .footer-content {
+      font-size: 1rem; } }
+  /* line 96, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+  .footer-content .name {
+    display: inline-block; }
+  /* line 101, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+  .footer-content .date {
+    display: inline-block; }
+  /* line 106, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+  .footer-content .vilinicz {
+    text-align: right;
+    color: #d0d0d0;
+    font-weight: 100;
+    font-size: 1px;
+    text-shadow: none;
+    font-family: "Bitter"; }
+    /* line 116, /home/vilinicz/projects/ramch/source/assets/stylesheets/_footer.css.scss */
+    .footer-content .vilinicz a {
+      color: #bfbfbf; }
